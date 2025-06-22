@@ -5,6 +5,9 @@ from config import SEED_FILE, LOG_FILE, JOIN_TIMEOUT
 from utils import setup_logging, ManagerSet, save_domain_queues
 from writers import warc_writer_process, visited_writer, timeouts_writer
 from crawler import DomainCrawler
+import warnings
+warnings.filterwarnings('ignore')
+
 
 def main():
     setup_logging(LOG_FILE)
