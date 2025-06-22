@@ -1,0 +1,6 @@
+requests==2.32.3
+lxml==5.4.0
+warcio==1.7.4
+protego==0.2.2
+tqdm==4.67.1
+beautifulsoup4==4.13.4
